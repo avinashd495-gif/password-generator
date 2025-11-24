@@ -31,21 +31,5 @@ Enter the number of digits for your password: 3
 Enter the number of special characters for your password: 2
 Here is your generated password: gT9!a2B#x
 
-Sample Code
-python
-import random
-
-letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-numbers = '0123456789'
-symbols = '!@#$%&*'
-
-def generate_password():
-    print("Welcome to the password generator")
-    n_letters = int(input("Enter the number of letters for your password: "))
-    n_numbers = int(input("Enter the number of digits for your password: "))
-    n_symbols = int(input("Enter the number of special characters for your password: "))
-
-  
-generate_password()
 
 Author - Avinash Dubey
